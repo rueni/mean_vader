@@ -9,4 +9,4 @@ http.createServer(function(request, response) {
   response.end(); // stop sending
 }).listen(5000);
 
-console.log('My server is up')
+console.log('My server is up');
