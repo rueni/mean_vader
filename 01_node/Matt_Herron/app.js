@@ -1,0 +1,1 @@
+console.log('Node is a fucking beast and I cannot wait to implement shit in Node.  It will make my life so much better and I will have something to show my wife');
