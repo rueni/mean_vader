@@ -1,5 +1,5 @@
 {
-  /*double quoes ALWAYS for JSON ""*/
+  /*double quotes ALWAYS for JSON ""*/
   "key": "values",
   "hash": "ruby",
   "object": "javascript",
