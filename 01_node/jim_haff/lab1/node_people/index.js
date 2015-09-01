@@ -1,17 +1,14 @@
 var http = require('http');
 var fs = require('fs');
 
-var html = fs.readFileSync('./index.html')
-
-
+var json = fs.readFileSync('./data.json')
 
 http.createServer(function(request, response){
 
   response.writeHead(200);
-  response.write(html);
+  response.write(json);
   response.end();
 
 }).listen(5000);
 
-
-console.log('html server on port 5000');
+console.log('server is running')
