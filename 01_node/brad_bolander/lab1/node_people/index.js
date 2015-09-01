@@ -10,11 +10,3 @@ http.createServer(function(request, response){
 }).listen(5000);
 
 console.log('api server is ready');
-
-
-
-
-
-
-
-#ef38ff
