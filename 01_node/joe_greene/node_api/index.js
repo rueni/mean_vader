@@ -1,7 +1,7 @@
 var http = require('http'); // library for http
 var fs = require('fs'); // library for filesystem
 
-var json = fs.readFileSynce('./data.json')
+var json = fs.readFileSync('./data.json')
 // file json and pull into it data json
 
 http.createServer(function(request, response){
